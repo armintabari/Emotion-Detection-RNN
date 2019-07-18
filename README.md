@@ -1,19 +1,19 @@
-Emotion Detection Model
+# Emotion Detection Model
 
 This is the code for training an emotion detection model using GRU presented in:
 
 
 ————————————————————————————————————————
-Train your own model
+## Train your own model
 
 Requirements (tested with):
-Python 3.6
-Numpy 1.14.5
-Pandas 0.24.1
-Sklearn 0.19.0
-Tensorflow 2.0.0-beta0
+- Python 3.6
+- Numpy 1.14.5
+- Pandas 0.24.1
+- Sklearn 0.19.0
+- Tensorflow 2.0.0-beta0
 
-To run:
+### To run:
 
 After downloading/cloning, put the dataset in the data folder. 
 
@@ -26,5 +26,9 @@ Use the configuration.cfg to set the name of dataset and embedding file, maximun
 Then run the handler.py:
 $python3 handler.py.
 
-Citation
+## Testing
+
+You can download the trained models used for the paper at: https://drive.google.com/open?id=1TXEbHMTA_AWPFC8bbt7WiBtfT3jVy8cG . To run, put the test file into the data forlder. test file should be one tweet per line with no additional columns. set the name of the file in test_configuration.cfg and run handler-test.py. 
+
+## Citation
 Please use the following citation when using the code or the paper:
