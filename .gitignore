@@ -1,6 +1,7 @@
 data/wang_cleaned_full_dataset.csv
-vectors/*
-trained_models/*
+vectors/numberbatch-en.txt
+vectors/crawl-300d-2M-subword.vec
+trained_models/*.h5
 .DS_Store
 handler-bkp.py
 model.pptx
