@@ -1,0 +1,6 @@
+data/wang_cleaned_full_dataset.csv
+vectors/*
+trained_models/*
+.DS_Store
+handler-bkp.py
+model.pptx
