@@ -32,3 +32,10 @@ You can download the trained models used for the paper at: https://drive.google.
 
 ## Citation
 Please use the following citation when using the code or the paper:
+
+@article{seyeditabari2019emotion,
+  title={Emotion Detection in Text: Focusing on Latent Representation},
+  author={Seyeditabari, Armin and Tabari, Narges and Gholizadeh, Shafie and Zadrozny, Wlodek},
+  journal={arXiv preprint arXiv:1907.09369},
+  year={2019}
+}
